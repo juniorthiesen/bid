@@ -20,8 +20,12 @@ class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Page uno', component: Page1 },
-      { title: 'Page dos', component: Page2 }
+    { title: 'Home', component: Home },
+    { title: 'Leilão', component: Page1 },
+    { title: 'Pesquisar', component: Page2 },
+    { title: 'Meus Lances', component: Page2 },
+    { title: 'Favoritos', component: Page2 },
+
     ];
 
   }

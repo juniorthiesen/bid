@@ -21,8 +21,11 @@ var MyApp = (function () {
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
-            { title: 'Page uno', component: page1_1.Page1 },
-            { title: 'Page dos', component: page2_1.Page2 }
+            { title: 'Leilão', component: page1_1.Page1 },
+            { title: 'Leilão', component: page1_1.Page1 },
+            { title: 'Pesquisar', component: page2_1.Page2 },
+            { title: 'Meus Lances', component: page2_1.Page2 },
+            { title: 'Meus Preferidos', component: page2_1.Page2 },
         ];
     }
     MyApp.prototype.initializeApp = function () {
