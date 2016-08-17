@@ -4,6 +4,7 @@ import { StatusBar } from 'ionic-native';
 
 import { Page1 } from './pages/page1/page1';
 import { Page2 } from './pages/page2/page2';
+import { LancePage } from './pages/lance/lance';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -20,10 +21,10 @@ class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-    { title: 'Home', component: Home },
+    //{ title: 'Home', component: Home },
     { title: 'Leilão', component: Page1 },
     { title: 'Pesquisar', component: Page2 },
-    { title: 'Meus Lances', component: Page2 },
+    { title: 'Meus Lances', component: LancePage },
     { title: 'Favoritos', component: Page2 },
 
     ];
